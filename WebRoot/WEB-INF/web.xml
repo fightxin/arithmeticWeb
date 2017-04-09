@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>MenuServlet</servlet-name>
+    <servlet-class>cn.dmego.web.MenuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>cn.dmego.web.CheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>indexServlet</servlet-name>
+    <servlet-class>cn.dmego.web.indexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HistoryServlet</servlet-name>
+    <servlet-class>cn.dmego.web.HistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>checkWrServlet</servlet-name>
+    <servlet-class>cn.dmego.web.checkWrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OnlineServlet</servlet-name>
+    <servlet-class>cn.dmego.web.OnlineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GradeServlet</servlet-name>
+    <servlet-class>cn.dmego.web.GradeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>MenuServlet</servlet-name>
+    <url-pattern>/servlet/MenuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/servlet/CheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexServlet</servlet-name>
+    <url-pattern>/servlet/indexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HistoryServlet</servlet-name>
+    <url-pattern>/servlet/HistoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkWrServlet</servlet-name>
+    <url-pattern>/servlet/checkWrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OnlineServlet</servlet-name>
+    <url-pattern>/servlet/OnlineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GradeServlet</servlet-name>
+    <url-pattern>/servlet/GradeServlet</url-pattern>
+  </servlet-mapping>
+  
+ <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file> 
+  </welcome-file-list>
+</web-app>
